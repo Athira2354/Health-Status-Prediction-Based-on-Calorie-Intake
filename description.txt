@@ -1,0 +1,13 @@
+PROHECT DESCRIPTION
+
+The Healthy Diet and Calorie Intake Analysis project aims to develop a machine learning system that analyses dietary and calorie-intake information to predict an individual's recorded health status. The project uses the Healthy Diet and Calorie Intake dataset available on Kaggle and applies data preprocessing, exploratory data analysis, feature engineering, and supervised machine learning algorithms to identify patterns associated with different health-status categories.
+
+The dataset contains approximately 6,000 records and 15 features, with Health Status serving as the target variable. The input features are examined to understand their relationship with the target and to identify useful information for predictive modelling.
+
+The project begins with data collection and inspection, followed by handling missing values, removing duplicate records, validating data types, encoding categorical variables, and scaling numerical features when required. Exploratory data analysis is performed to understand feature distributions, class balance, correlations, and potential relationships between dietary variables and health status.
+
+Multiple machine learning classification algorithms, including Logistic Regression, Decision Tree, Random Forest, K-Nearest Neighbors, and Naive Bayes, can be evaluated. The models are compared using accuracy, precision, recall, F1-score, confusion matrices, and other suitable evaluation metrics. Cross-validation and appropriate data-splitting techniques can be used to assess model generalisation.
+
+The best-performing model is selected based on its overall evaluation results rather than accuracy alone. The trained model can then be integrated into a simple web application or prediction API that accepts the required dietary information and returns a predicted health-status category.
+
+The final objective is to demonstrate an end-to-end machine learning workflow and provide an educational tool for exploring relationships between dietary patterns and recorded health status. The system is intended for learning and research, not for medical diagnosis or personalised clinical nutrition advice.
